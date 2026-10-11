@@ -8,8 +8,11 @@ for (const width of [360, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/aeliqo-docs/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-      "Your music. Your stage. Your AI partner.",
+      "Your music. Your stage. Your practice.",
     );
+    await expect(
+      page.getByText("live AI coaching is unavailable", { exact: true }),
+    ).toBeVisible();
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= window.innerWidth,
@@ -69,4 +72,26 @@ test("keyboard skip link and reduced motion remain usable", async ({
     .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
     .analyze();
   expect(result.violations).toEqual([]);
+});
+
+test("getting started clearly marks the failed AI trial as unavailable", async ({
+  page,
+}) => {
+  await page.goto("/aeliqo-docs/getting-started/");
+  await expect(
+    page.getByRole("heading", {
+      name: "Live AI coaching is unavailable",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      /Do not expect Connect live coach, Talk to coach or Coach my last note to provide a working AI session/,
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      /The US\$0\.75 retained application holds are not a provider invoice/,
+    ),
+  ).toBeVisible();
 });

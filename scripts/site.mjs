@@ -1,6 +1,6 @@
 export const site = {
   name: "Aeliqo",
-  version: "0.1.0",
+  version: "0.2.1",
   base: "/aeliqo-docs/",
   origin: "https://hermawan22.github.io",
 };
@@ -10,7 +10,7 @@ export const pages = [
     file: "overview",
     title: "Overview",
     group: "Start here",
-    eyebrow: "YOUR AI MUSIC COMPANION",
+    eyebrow: "YOUR MUSIC COMPANION",
     description: "Meet the first independent Aeliqo music experience.",
   },
   {
@@ -35,7 +35,7 @@ export const pages = [
     file: "capabilities",
     title: "Capabilities",
     group: "The experience",
-    eyebrow: "THE 0.1.0 EXPERIENCE",
+    eyebrow: "THE 0.2.1 EXPERIENCE",
     description: "A precise guide to shipped behavior and current limits.",
   },
   {
@@ -60,7 +60,7 @@ export const pages = [
     title: "AI providers",
     group: "Behind the stage",
     eyebrow: "OPTIONAL BY DESIGN",
-    description: "The future provider boundary and what is unavailable today.",
+    description: "Unavailable experimental coaching and closed-trial status.",
   },
   {
     slug: "architecture",
@@ -75,7 +75,7 @@ export const pages = [
     file: "version",
     title: "Version information",
     group: "Behind the stage",
-    eyebrow: "RELEASE 0.1.0",
+    eyebrow: "RELEASE 0.2.1",
     description: "Release identity, compatibility, and publication targets.",
   },
   {

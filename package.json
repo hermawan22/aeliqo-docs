@@ -1,8 +1,8 @@
 {
   "name": "aeliqo-docs",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "private": true,
-  "description": "Public static documentation for Aeliqo, your AI music companion",
+  "description": "Public static documentation for Aeliqo, your music companion",
   "type": "module",
   "packageManager": "pnpm@11.24.0",
   "engines": {

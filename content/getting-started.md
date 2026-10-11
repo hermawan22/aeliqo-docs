@@ -1,6 +1,6 @@
 # Your first session
 
-A song, a partner, and a little space for your voice.
+A song, a partner, and a little space for your voice. **These steps describe live 0.2.1. Live AI coaching is unavailable: the production trial failed before connecting, no Gemini response was verified, and its three-session allowance is exhausted. Music, recordings and local target-note feedback remain usable.**
 
 ## 1. Prepare your sound
 
@@ -37,3 +37,19 @@ At the end, replay the take, download it to your device, or delete it. Downloade
 ## Try another mode
 
 **Jam Together** offers deterministic accompaniment for an open-ended session. **Get Better** brings the optional pitch guide forward. Neither requires an account or an AI provider connection.
+
+## Build your mix and find your note
+
+Search by title, genre or key, or filter the six original genres before starting. Choose the song, then toggle its five synthesized instrumental layers: keys, guitar, bass, drums and pad. These switches mute real stems; the instrumental volume still controls their combined level.
+
+Choose your singing octave explicitly: original melody, one octave lower or one octave higher. While paused, **Hear target** plays a reference tone. During your solo phrase, hold a comfortable vowel and watch the target, detected steady note and sharp/flat difference. The guide waits for stable input and does not grade silence, clipping, uncertain sound, note boundaries or partner/together turns. Headphones improve isolation.
+
+The partner sings arranged vowels. Words on screen are phrase prompts, without validated syllable alignment; the app does not generate a partner singing those words live.
+
+## Live AI coaching is unavailable
+
+The experimental Gemini coach did not pass production acceptance. The final session-creation request returned **HTTP 503 before Connected**, with no transcript or audible response. The private trial is closed after all three lifetime reservations, including failures. The US$0.75 retained application holds are not a provider invoice. A dashboard showing unused funds does not reopen this allowance.
+
+Do not expect **Connect live coach**, **Talk to coach** or **Coach my last note** to provide a working AI session in this release. No retry, reset, refund, top-up, replacement key or further paid call is authorized under the closed trial.
+
+Use **Get Better** for measured local target-note guidance: sing a steady vowel during your solo phrase, choose your octave and use **Hear target** while paused. This local analysis is not an AI conversation. The partner remains an arranged synthetic vowel part, not a live AI singing duet. See [provider status](../providers/) for the failed trial and [privacy](../privacy/) for the separate, experimental transmission boundary.
