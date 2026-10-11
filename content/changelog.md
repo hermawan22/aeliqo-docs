@@ -2,6 +2,21 @@
 
 Changes to the independent Aeliqo music product and its public docs.
 
+## 0.2 · Forthcoming, not deployed
+
+Implementation and acceptance work are in progress. **0.1.0 remains the live application.** No successful production provider session or 0.2 release identity is asserted here.
+
+- Six original genre arrangements and five independently switchable synthesized instrument stems per song.
+- Search and genre filtering before song playback.
+- Local target-note comparison with stable-signal gating, neutral uncertain/rest/partner states, explicit octave choice and a paused reference tone.
+- Optional real Gemini spoken coaching through a Vercel AI Gateway server proxy, separate from local analysis and arranged partner vocals.
+- Explicit provider-transmission consent, private trial code, pause-for-conversation controls, bounded input/output and fail-closed transport handling.
+- Corrected normalized `audio/pcm` setup. Two failed setup reservations remain held, totaling US$0.50; no successful provider exchange is asserted.
+- A dedicated gateway key with a US$1 lifetime, Refresh Never soft budget.
+- A durable SQLite trial ledger: at most three nonrefundable US$0.25 lifetime holds under a US$1 total test authorization, no automatic ledger creation, reconnect, retry or top-up.
+
+The dedicated gateway credential is provisioned; actual provider acceptance, durable deployment verification and final release identity are pending. Word/syllable alignment, live AI duet singing, accounts and cloud recordings are not included. Local reservation limits are not a verified provider billing hard cap.
+
 ## 0.1.0 · Initial release
 
 The initial source release establishes a genuinely playable, browser-local music session.

@@ -1,6 +1,8 @@
 # Version information
 
-Product and documentation version: **0.1.0**.
+Published product and documentation version: **0.1.0**.
+
+**0.2 is forthcoming, not deployed.** This documentation branch describes the next feature set while preserving the live 0.1.0 identity. The dedicated gateway credential is provisioned; real provider acceptance, durable trial setup and final deployed source/image identity remain pending. Two failed setup attempts retain US$0.50 of application holds after a PCM setup correction. The dedicated gateway key has a US$1 lifetime, Refresh Never soft budget. A documentation build, passing local fixture or configured key does not verify a successful provider exchange or its actual billed cost.
 
 This is the first independent Aeliqo music release. It does not inherit the former adaptive UI framework's 0.7.1 package version. Varendo has its own version and release process.
 
@@ -24,4 +26,4 @@ The signed 0.1.0 music release is live at [aeliqo.com](https://aeliqo.com/). Its
 
 The release uses browser-local Web Audio and browser-dependent capture/recording features. Read [requirements](../requirements/) for their practical limits. Automated browser coverage is not a real-device audio certification.
 
-See the [changelog](../changelog/) for the 0.1.0 scope and [capabilities](../capabilities/) for the precise behavior.
+See the [changelog](../changelog/) for the preserved 0.1.0 scope and forthcoming 0.2 work and [capabilities](../capabilities/) for the precise behavior.

@@ -1,6 +1,6 @@
 # Your microphone, your choice
 
-Local audio first. Clear consent before capture.
+**0.1.0 is live and keeps audio local. The optional provider flow below is forthcoming in 0.2; production acceptance is pending.** Microphone permission, local recording and provider transmission are separate choices.
 
 ## Before you enable the microphone
 
@@ -25,9 +25,19 @@ Recording requires a separate opt-in. MediaRecorder captures the local mix into 
 
 Close the session or disable capture when you are finished. The browser's microphone indicator and site controls show whether capture remains active. Revoking permission or disconnecting a microphone interrupts capture; the application should report that state explicitly.
 
-## Optional AI requests
+## Forthcoming in 0.2: optional live coach
 
-A future configured text provider would send a prompt and supplied session context through the application server. Do not put sensitive personal information into a prompt. Provider retention and hosting logs depend on the operator's configuration and the chosen provider's terms. No provider-backed privacy promise is implied by the local audio behavior.
+A private trial code and a separate consent checkbox are required before connecting. Consent covers sending questions and limited song/pitch context through the application server and **Vercel AI Gateway to Google**. Pressing **Talk to coach** starts provider voice transmission; microphone permission for local pitch feedback alone does not authorize it. Music pauses while you talk, and **Finish speaking** ends that voice turn. Provider voice detection can answer during a pause before that button is pressed.
+
+The transmitted voice is microphone PCM, separate from the locally mixed recording. Text questions can include the chosen song, genre, tempo, session time and the last stable solo-note estimate: target note, detected note, cents difference, selected octave and measurement age. Quality and clipping are evaluated locally before a stable estimate is retained; they are not a whole-performance score. Voice turns use the fixed song setup; buffered pitch context is not sent as a second voice-turn prompt. Do not include sensitive information in a question. The spoken reply and its transcript are distinct from a transcript of your recorded performance.
+
+Disconnecting, hiding the tab, losing the microphone or encountering a transport failure cancels the AI interaction and pending input. Each connection is limited to 60 seconds and three replies, with no automatic reconnect. These behaviors are implementation requirements under acceptance testing, not a claim of completed production verification.
+
+Local recordings remain in browser memory and are not uploaded by the coach flow. There is no account or cloud recording library. **Local recording privacy does not mean live coach voice stays on the device.**
+
+Provider retention and hosting logs depend on the operator's configuration and service terms. This documentation makes no exact deletion deadline or zero-retention promise for gateway/provider traffic. Review the operator's final disclosure before enabling a production provider.
+
+The server keeps a durable SQLite budget ledger with reservation identity, timestamps, closure and accounting amounts. That accounting ledger is not a recording library or saved conversation history. Failed reservations remain charged against the owner's lifetime trial allowance; see [providers](../providers/).
 
 Permanent provider keys belong in server environment variables. Never paste a production API key into browser code, a public issue, or this documentation repository.
 

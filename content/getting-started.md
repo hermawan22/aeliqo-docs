@@ -1,6 +1,6 @@
 # Your first session
 
-A song, a partner, and a little space for your voice.
+A song, a partner, and a little space for your voice. **These first steps describe live 0.1.0. The 0.2 additions below are forthcoming and not yet accepted in production.**
 
 ## 1. Prepare your sound
 
@@ -37,3 +37,19 @@ At the end, replay the take, download it to your device, or delete it. Downloade
 ## Try another mode
 
 **Jam Together** offers deterministic accompaniment for an open-ended session. **Get Better** brings the optional pitch guide forward. Neither requires an account or an AI provider connection.
+
+## Forthcoming in 0.2: build your mix and find your note
+
+Search by title, genre or key, or filter the six original genres before starting. Choose the song, then toggle its five synthesized instrumental layers: keys, guitar, bass, drums and pad. These switches mute real stems; the instrumental volume still controls their combined level.
+
+Choose your singing octave explicitly: original melody, one octave lower or one octave higher. While paused, **Hear target** plays a reference tone. During your solo phrase, hold a comfortable vowel and watch the target, detected steady note and sharp/flat difference. The guide waits for stable input and does not grade silence, clipping, uncertain sound, note boundaries or partner/together turns. Headphones improve isolation.
+
+The partner sings arranged vowels. Words on screen are phrase prompts, without validated syllable alignment; the app does not generate a partner singing those words live.
+
+## Forthcoming in 0.2: talk with a real coach
+
+The optional Gemini spoken coach is a limited private owner trial. The dedicated gateway credential is provisioned; provider acceptance and deployment are pending. If available, enter the private trial code, read the provider-transmission consent and choose **Connect live coach**. Permission to use a microphone for local feedback is separate from this consent.
+
+Choose **Talk to coach** to transmit your microphone through Vercel AI Gateway to Google; music pauses while you speak. Choose **Finish speaking** to end the voice turn; the provider can also detect a pause and answer before you press it. Choose **Coach my last note** for guidance based on the last stable solo-note estimate, or ask a text question about a phrase or exercise. The estimate includes its selected octave and age; it does not describe the whole performance. Each connection is limited to 60 seconds and three replies. There are no automatic reconnects, retries or top-ups. **Disconnect AI** ends the connection; hiding the tab or losing the microphone also cancels it.
+
+The spoken model provides guidance. Local target-note analysis provides measured pitch feedback. This is not a live AI singing duet. Read [privacy](../privacy/) and [provider limits](../providers/) before opting in.
