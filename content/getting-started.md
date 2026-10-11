@@ -1,6 +1,6 @@
 # Your first session
 
-A song, a partner, and a little space for your voice. **These first steps describe live 0.1.0. The 0.2 additions below are forthcoming and not yet accepted in production.**
+A song, a partner, and a little space for your voice. **These steps describe live 0.2.1. Live AI coaching is unavailable: the production trial failed before connecting, no Gemini response was verified, and its three-session allowance is exhausted. Music, recordings and local target-note feedback remain usable.**
 
 ## 1. Prepare your sound
 
@@ -38,7 +38,7 @@ At the end, replay the take, download it to your device, or delete it. Downloade
 
 **Jam Together** offers deterministic accompaniment for an open-ended session. **Get Better** brings the optional pitch guide forward. Neither requires an account or an AI provider connection.
 
-## Forthcoming in 0.2: build your mix and find your note
+## Build your mix and find your note
 
 Search by title, genre or key, or filter the six original genres before starting. Choose the song, then toggle its five synthesized instrumental layers: keys, guitar, bass, drums and pad. These switches mute real stems; the instrumental volume still controls their combined level.
 
@@ -46,10 +46,10 @@ Choose your singing octave explicitly: original melody, one octave lower or one 
 
 The partner sings arranged vowels. Words on screen are phrase prompts, without validated syllable alignment; the app does not generate a partner singing those words live.
 
-## Forthcoming in 0.2: talk with a real coach
+## Live AI coaching is unavailable
 
-The optional Gemini spoken coach is a limited private owner trial. The dedicated gateway credential is provisioned; provider acceptance and deployment are pending. If available, enter the private trial code, read the provider-transmission consent and choose **Connect live coach**. Permission to use a microphone for local feedback is separate from this consent.
+The experimental Gemini coach did not pass production acceptance. The final session-creation request returned **HTTP 503 before Connected**, with no transcript or audible response. The private trial is closed after all three lifetime reservations, including failures. The US$0.75 retained application holds are not a provider invoice. A dashboard showing unused funds does not reopen this allowance.
 
-Choose **Talk to coach** to transmit your microphone through Vercel AI Gateway to Google; music pauses while you speak. Choose **Finish speaking** to end the voice turn; the provider can also detect a pause and answer before you press it. Choose **Coach my last note** for guidance based on the last stable solo-note estimate, or ask a text question about a phrase or exercise. The estimate includes its selected octave and age; it does not describe the whole performance. Each connection is limited to 60 seconds and three replies. There are no automatic reconnects, retries or top-ups. **Disconnect AI** ends the connection; hiding the tab or losing the microphone also cancels it.
+Do not expect **Connect live coach**, **Talk to coach** or **Coach my last note** to provide a working AI session in this release. No retry, reset, refund, top-up, replacement key or further paid call is authorized under the closed trial.
 
-The spoken model provides guidance. Local target-note analysis provides measured pitch feedback. This is not a live AI singing duet. Read [privacy](../privacy/) and [provider limits](../providers/) before opting in.
+Use **Get Better** for measured local target-note guidance: sing a steady vowel during your solo phrase, choose your octave and use **Hear target** while paused. This local analysis is not an AI conversation. The partner remains an arranged synthetic vowel part, not a live AI singing duet. See [provider status](../providers/) for the failed trial and [privacy](../privacy/) for the separate, experimental transmission boundary.
