@@ -15,6 +15,7 @@ The initial source release establishes a genuinely playable, browser-local music
 - Responsive accessible controls and explicit failure states.
 - A documented future provider boundary; contextual AI assistance is explicitly unavailable.
 - Public static documentation and a GitHub Pages deployment workflow.
+- The music application is live at [aeliqo.com](https://aeliqo.com/) using a signed image qualified by production smoke, strict vulnerability scanning, and three-engine staging and public browser checks. The legacy framework remains warm for rollback and its documentation is preserved separately.
 
 ### Current limits
 

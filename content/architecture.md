@@ -8,7 +8,7 @@ A deterministic stage with optional intelligence around it.
 - **hermawan22/aeliqo-docs** — public static documentation; this repository.
 - **hermawan22/varendo** — the former adaptive UI framework, separately preserved and rebranded.
 
-Aeliqo's music application is a new codebase. It does not import the former framework. This documentation deploys to GitHub Pages; the application needs its own deployment on aeliqo.com after cutover approval.
+Aeliqo's music application is a new codebase. It does not import the former framework. This documentation is published on GitHub Pages. The signed application image runs independently on the existing infrastructure at [aeliqo.com](https://aeliqo.com/). The legacy framework remains warm for route rollback, with its documentation preserved separately at `docs.aeliqo.com`.
 
 ## Audio path
 

@@ -2,7 +2,7 @@
 
 Public documentation for **Aeliqo 0.1.0**, the independent music companion.
 
-Intended repository: [hermawan22/aeliqo-docs](https://github.com/hermawan22/aeliqo-docs). Intended documentation address: [hermawan22.github.io/aeliqo-docs](https://hermawan22.github.io/aeliqo-docs/). These addresses describe the publication target; a local build alone does not confirm publication.
+Repository: [hermawan22/aeliqo-docs](https://github.com/hermawan22/aeliqo-docs). Published documentation: [hermawan22.github.io/aeliqo-docs](https://hermawan22.github.io/aeliqo-docs/).
 
 ## Develop
 
