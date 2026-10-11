@@ -1,6 +1,6 @@
 # Your first session
 
-A song, a partner, and a little space for your voice. **These steps describe live 0.2.2. Live AI coaching is unavailable: the fourth trial produced no verified Gemini response or audible output, and all four lifetime admissions are exhausted. Music, recordings and local target-note feedback remain usable.**
+A song, a partner, and a little space for your voice. **These steps describe live 0.3.3. A spoken teacher, measured-note correction and an AI-directed local instrument response completed one controlled production trial. Bounded AI trial access is available with the private code, consent and remaining budget.** Music, recordings and local target-note feedback remain usable. The qualified musical flow used explicit text controls. One controlled synthetic-speech exchange on 0.3.3 was independently qualified; physical-device singing remains unqualified.
 
 ## 1. Prepare your sound
 
@@ -10,7 +10,7 @@ Open [Aeliqo](https://aeliqo.com/) to start. The music application is live on HT
 
 ## 2. Choose your stage
 
-Select **Sing Together**, choose an original demo song, and choose an available partner timbre. The partner part is an arranged synthetic vowel performance. Its role is to give you a duet texture; it does not pronounce every lyric or react as a live singer.
+Select **Karaoke**, choose an original demo song, and choose an available partner timbre. The partner part is an arranged synthetic vowel performance. Its role is to give you a duet texture; it does not pronounce every lyric or react as a live singer.
 
 Lyrics follow the song clock and identify assigned parts. Follow your assigned lines and listen when the partner has the lead.
 
@@ -36,7 +36,7 @@ At the end, replay the take, download it to your device, or delete it. Downloade
 
 ## Try another mode
 
-**Jam Together** offers deterministic accompaniment for an open-ended session. **Get Better** brings the optional pitch guide forward. Neither requires an account or an AI provider connection.
+**AI partner** offers deterministic accompaniment with the arranged vocal level initially at zero, plus experimental response controls. **AI teacher** brings local pitch guidance and experimental exercise/correction controls forward. Choose a mode before starting backing playback. Local accompaniment and pitch guidance need no account or provider connection; the AI requests require separately authorized access, consent and available provider access. One controlled text-led teacher/partner session is qualified; ongoing availability and physical-device input are not established. One separate controlled synthetic-speech exchange was independently qualified.
 
 ## Build your mix and find your note
 
@@ -46,12 +46,25 @@ Choose your singing octave explicitly: original melody, one octave lower or one 
 
 The partner sings arranged vowels. Words on screen are phrase prompts, without validated syllable alignment; the app does not generate a partner singing those words live.
 
-## Live AI coaching is unavailable
+## Use the bounded AI trial
 
-The experimental Gemini coach did not pass production acceptance. The fourth trial created a session and the application's HTTP endpoint accepted microphone bytes, but no stream event, transcript or native audio reply was observed before a 15-second timeout. HTTP acceptance does not prove the audio reached the provider. The silent-reply cause remains unresolved.
+One controlled 0.3.1 production trial completed **Hear an exercise**, measured local practice, **Coach my practice** and **Play a musical response**. The teacher chose A4/C5, correctly described a locally measured −49.95-cent A4 as flat and advised aiming higher, then chose an ascending A4/B4/C5 instrument response. Three spoken replies and both musical phrases completed, followed by confirmed session and microphone cleanup.
 
-The private trial is closed after all four lifetime reservations, including failures. **The US$1.00 retained application holds are not a provider invoice or proof that US$1 was spent.** A dashboard showing unused funds does not reopen this allowance.
+This qualifies the bounded text-led musical flow, not raw microphone conversation, a physical human performance or a generated sung duet. An earlier intermittent failure remains unexplained; one pass does not establish general reliability. The current admission status is available for the bounded private trial, subject to the private code, consent and remaining budget. It does not provide unrestricted ongoing access or automatic retries.
 
-Do not expect **Connect live coach**, **Talk to coach** or **Coach my last note** to provide a working AI session in this release. A fifth admission is blocked. No retry, reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial.
+Nine reservations are closed, with original session rows and accounting history preserved. A later synthetic voice exchange completed: the coach identified the spoken instrument as ukulele and gave a beginner practice tip. Independent review qualified this one controlled synthetic-speech exchange; receipt accounting was applied after a fresh settling check. **Application holds are not a provider invoice or proof that US$1 was spent.** Five freshly checked official receipts record US$0.02693550; this is recorded usage, not a settled invoice or a guarantee that delayed usage is complete. See [provider accounting](../providers/#recorded-cost-and-historical-holds). The same US$1 lifetime key remains unchanged, without reset, top-up or automatic refill.
 
-Use **Get Better** for measured local target-note guidance: sing a steady vowel during your solo phrase, choose your octave and use **Hear target** while paused. This local analysis is not an AI conversation. The partner remains an arranged synthetic vowel part, not a live AI singing duet. See [provider status](../providers/) for the failed trial and [privacy](../privacy/) for the separate, experimental transmission boundary.
+Use the local pitch guide in **AI teacher** mode independently of the provider: hold a vowel during your solo phrase, choose your octave and use **Hear target** while paused. See [provider status](../providers/) and [privacy](../privacy/).
+
+## Learn and answer with music
+
+**This bounded text-led flow completed a controlled real-provider trial.** Trial admission is available with the private code and consent, subject to remaining budget; errors end the interaction without automatic retry. The implemented flow requires operator-authorized trial access, explicit provider consent and a microphone. A connection still allows only 60 seconds and three replies; local practice does not grant ongoing AI access.
+
+1. From an idle stage, choose **AI teacher** and connect only with authorized trial access and consent. Choose **Hear an exercise** to ask the teacher for a short musical example. The AI selects validated notes; your browser plays a real synthesized instrument phrase. This uses one provider reply.
+2. Choose a comfortable exercise octave, then **Try exercise**. Hold the example's **first note** on a vowel or a clear single instrument tone. This measures locally while backing music is paused; practice audio is not uploaded. **Hear exercise target** plays the local reference again without another AI reply.
+3. Choose **Coach my practice** to send the recent local observation summary and request one spoken correction. It includes stable close/above/below counts and median cents from at most 32 observations within the last 30 seconds, scoped to this held-note target and octave. It is not a whole-phrase score or proof that the model heard your performance. This uses a second provider reply.
+4. Choose **AI partner** while the backing stage is idle, then **Play a musical response** for the partner to select a short instrumental answer informed by the supplied practice context. The browser plays it and acknowledges completion before the spoken continuation. This uses the third reply; the connection then closes.
+
+Keep **Instrumental** volume audible for the exercise and musical response. **Partner** volume controls the arranged vowel track independently, and does not control these instrument notes. You can end the session at any point. Song changes, disconnects and tab hiding cancel pending musical responses.
+
+The flow has passed local and public browser tests with a fake provider, real pitch analysis and real local audio playback. The later actual three-turn trial qualified the text-led exercise, measured correction and local musical response described above. Mocked tests alone do not establish provider behavior, raw voice input or physical-device performance. The musical partner directs local instruments; it does not generate a sung duet.
