@@ -1,23 +1,23 @@
 # Capabilities and release status
 
-**0.2.2 is live. Experimental live AI coaching is unavailable: the fourth trial failed to qualify a reply and all four admissions are exhausted. No successful Gemini response or audible output has been verified.** Music playback, local target-note feedback and recording work independently of provider access.
+**0.3.3 is live. A spoken teacher, measured-note correction and AI-directed local musical response completed one controlled production trial.** The qualified flow was tested on 0.3.1 using explicit text-led requests and local pitch measurements. One controlled synthetic-speech exchange on 0.3.3 was independently qualified. Physical-device performance and generated sung duets remain unqualified. Bounded private-code AI trial admission is available, subject to consent and remaining budget; music playback, local pitch and recording remain usable.
 
-| Capability                  | 0.2.2 behavior                                                                                    |
-| --------------------------- | ------------------------------------------------------------------------------------------------- |
-| Song playback               | Original, procedurally synthesized instrumentals, scheduled by Web Audio                          |
-| Duet partner                | Arranged synthetic vowel stems with partner timbre choices                                        |
-| Lyrics                      | Authored original lyrics synchronized with the session clock and assigned parts                   |
-| Mixing                      | Five switchable synthesized instrumental stems plus instrumental and partner volume controls      |
-| Microphone                  | Explicit opt-in capture and live activity visualization                                           |
-| Pitch guide                 | Stable local target-note comparison on user solo turns, explicit octave choice and reference tone |
-| Recording                   | Opt-in mixed recording, replay, download, and deletion in the browser session                     |
-| Jam Together                | Deterministic accompaniment; no reactive improvisation                                            |
-| Get Better                  | Optional practice feedback; no medical or professional voice assessment                           |
-| Contextual assistance       | Unavailable experimental spoken-coach implementation; trial failed and allowance exhausted        |
-| Accounts and saved progress | Not included                                                                                      |
-| Cloud recordings            | Not included                                                                                      |
-| Live generative singing     | Not included                                                                                      |
-| Commercial song catalog     | Not included                                                                                      |
+| Capability                  | 0.3.3 behavior                                                                                                    |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Song playback               | Original, procedurally synthesized instrumentals, scheduled by Web Audio                                          |
+| Duet partner                | Arranged synthetic vowel stems with partner timbre choices                                                        |
+| Lyrics                      | Authored original lyrics synchronized with the session clock and assigned parts                                   |
+| Mixing                      | Five switchable synthesized instrumental stems plus instrumental and partner volume controls                      |
+| Microphone                  | Explicit opt-in capture and live activity visualization                                                           |
+| Pitch guide                 | Stable local target-note comparison on user solo turns, explicit octave choice and reference tone                 |
+| Recording                   | Opt-in mixed recording, replay, download, and deletion in the browser session                                     |
+| AI partner                  | Deterministic backing plus a qualified bounded model-directed local instrument response                           |
+| AI teacher                  | Local pitch guidance plus a qualified bounded spoken exercise/correction flow                                     |
+| Contextual assistance       | One text-led musical session and one synthetic voice exchange completed; synthetic speech independently qualified |
+| Accounts and saved progress | Not included                                                                                                      |
+| Cloud recordings            | Not included                                                                                                      |
+| Live generative singing     | Not included                                                                                                      |
+| Commercial song catalog     | Not included                                                                                                      |
 
 ## What “partner” means here
 
@@ -39,8 +39,18 @@ Recordings are session-local and are not automatically saved. Export a take befo
 - **Five separate instrumental stems per song:** synth keys, synth guitar, synth bass, synth drums and synth pad. Checkboxes change the actual audio mix, alongside instrumental and partner volume controls. Genre filters and search help choose a song before playback.
 - **Local target-note comparison:** the current score note is compared with measured microphone frequency during the user's solo turns. Three stable measurements are required before showing match, sharp or flat feedback. Periodicity is a signal-quality indicator, not an AI probability. Silence, clipping, uncertain input, rests, note edges and partner/together turns remain neutral.
 - **Explicit octave choice:** original melody, one octave lower or one octave higher. An octave mistake is not automatically folded into a correct note. A reference-tone button helps hear the target while playback is paused.
-- **Experimental spoken-coach implementation, unavailable:** designed for Gemini Live through a Vercel AI Gateway server proxy, with explicit consent and a private trial code. The code pauses music for conversation and grounds text questions in the last stable solo-note measurement. No real model reply or audible coaching passed acceptance; these implemented controls are not a verified working AI feature.
+- **Bounded spoken teacher and musical partner:** Gemini through a Vercel AI Gateway server proxy, with explicit consent and a private trial code. One actual text-led production trial completed an AI-selected exercise, a correction matching locally measured flat pitch and an AI-selected instrumental response. One controlled synthetic-speech exchange on 0.3.3 was independently qualified. This is owner-trial evidence, not an unrestricted available service.
 
-The catalog and local pitch guidance are deployed. The fourth trial created a session and received HTTP acceptance for microphone bytes, but no stream event, transcript or native output was observed before a 15-second timeout. HTTP acceptance does not establish upstream forwarding. All four lifetime holds are closed, totaling US$1.00 in application reservations, not a provider invoice. A fifth admission is blocked; no reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial. The synthetic partner still performs arranged **ooh/ah vowels**. Displayed words are phrase prompts; word pronunciation and syllable-to-note alignment are not implemented. Live generative duet singing remains unavailable.
+The catalog and local pitch guidance work independently of AI access. The arranged synthetic partner performs **ooh/ah vowels**. Displayed words are phrase prompts; word pronunciation and syllable-to-note alignment are not implemented. Live generative duet singing remains unavailable. Provider receipts, reservation holds and lifetime spending are distinct; see [provider accounting](../providers/#recorded-cost-and-historical-holds).
+
+## Qualified text-led musical flow and its limits
+
+The teacher selected A4/C5 at 100 BPM. Local held-note analysis then supplied four stable A4 observations at octave zero, median −49.95 cents. The spoken correction consistently identified the note as flat, advised aiming higher and invited another attempt. The partner responded with an ascending A4/B4/C5 phrase. The browser produced measured post-gain sound for both phrases even with arranged vocals muted; both playback acknowledgements succeeded, all five instrument notes and all three spoken replies completed naturally.
+
+This qualifies spoken teaching grounded in measured data and model-directed local instrument call and response. One separate controlled synthetic-speech exchange on 0.3.3 was independently qualified. Physical-device singing and generated vocal lyrics remain unqualified. The earlier intermittent second-turn failure remains unresolved; one successful trial is not evidence of its cause or a general reliability guarantee. Bounded private-code trial admission is available, subject to consent and remaining budget.
+
+Automated unit/browser tests and offline native pitch/audio checks remain separate supporting evidence; their provider interactions are mocked and do not replace the actual trial.
+
+The exercise measures only its first held note, with an explicit octave. Its summary retains at most 32 stable observations from the last 30 seconds, including close/above/below counts and median cents. The teacher receives this bounded context on **Coach my practice**; local practice audio stays on the device. Instrumental volume controls the actual example/response instrument bus independently of the arranged partner-vocal volume.
 
 See [providers](../providers/) for connection limits and [privacy](../privacy/) for what leaves the device.

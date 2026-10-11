@@ -1,28 +1,50 @@
 # Version information
 
-Current application and documentation version: **0.2.2**. The application is deployed and verified; publication of this documentation update is separate.
+Current application and documentation version: **0.3.3**. The signed application is live at [aeliqo.com](https://aeliqo.com/). A controlled 0.3.1 text-led trial qualified spoken teaching, measured-note correction and an AI-directed local instrument partner. One controlled 0.3.3 synthetic-speech exchange was independently qualified; receipt accounting was applied after a fresh settling check. Physical-device performance and generated sung duets remain unqualified. Bounded private-code trial admission is available, subject to consent and remaining budget; this is not an unrestricted ongoing service.
 
-**Experimental live AI coaching is unavailable.** The fourth production trial created a session and received HTTP acceptance for microphone input, but no stream event, transcript or native audio reply was observed before a 15-second timeout. HTTP acceptance does not prove upstream audio forwarding. No successful Gemini response, audible coaching or grounded-pitch conversation has been qualified. The silent-reply cause and stream-first-byte behavior remain unresolved.
+## Current signed identity
 
-All four lifetime US$0.25 reservations are closed, retaining **US$1.00 in application holds**. The original three rows remain unchanged. These holds are not a provider invoice or proof that US$1 was spent. A fifth admission is blocked; no reset, refund, top-up, replacement key or further paid/provider call is authorized under this exhausted trial.
+- Source revision: `e2e1864c3de4f5fa6be998bb76eec157ca5127ed`.
+- Image tag: `main-e2e1864-38182951436`.
+- Image digest: `sha256:1ff7ca1c66889ab0fe7402281cd60cc66266c283fc5839d85ab9323398169b98`.
 
-The same dedicated gateway key retains its US$1 lifetime, Refresh Never soft budget. A later dashboard display of US$0.00 used, US$1.00 remaining and zero requests/tokens with recent key activity may be delayed or rounded. It is not settled zero-cost proof or permission to retry. Local music, recording and measured pitch feedback remain independent of provider availability.
+The exact image was verified on two ready replicas with zero restarts. Application PR/main CI, the signed owner release and exact GitOps validation/hygiene passed. Public health, routes and all 42 WAV hashes were verified; the legacy rollback remains unchanged. Automated provider-mocked tests remain separate from actual provider and physical-device acceptance.
 
-This music product has its own version history. It does not inherit the former adaptive UI framework's 0.7.1 package version. Varendo has its own version and release process.
+## Actual musical and voice evidence
 
-## Current release identity
+The controlled 0.3.1 text-led trial completed three turns: an A4/C5 exercise, a spoken correction matching four stable locally measured flat A4 observations, and an ascending A4/B4/C5 instrument response. Both local phrases and all three spoken replies ended naturally, followed by verified microphone and session cleanup. This qualifies bounded spoken teaching grounded in measured metadata and model-directed local instrumental call and response.
+
+The subsequent 0.3.2 voice trial sent 4.8 seconds of valid PCM and committed one turn, but received no transcript, spoken audio or response completion. Cleanup succeeded and input inspection found no corruption.
+
+The 0.3.3 trial sent the synthetic spoken question “My instrument is ukulele. Name it and give me one beginner practice tip.” through the actual browser MediaStream and production worklet, without a text or context fallback. The reply named ukulele and advised pressing near the frets for a clear sound. About 7.7 seconds of output completed naturally, with input transcription and response completion, no interrupted playback and verified microphone/session cleanup. Independent review qualified this single controlled synthetic-speech exchange. This single synthetic exchange does not establish physical-human/device performance, continuous jamming or generated sung lyrics, and does not isolate a causal fix for earlier intermittent silence.
+
+## Accounting and access
+
+Nine session rows are closed; all original rows, the checkpoint and immutable adjustments are preserved. The reviewed key-scope correction, complete receipt bundle and one-time historical-exposure policy were applied without resetting the ledger or key. The policy retains known costs, a global uncertainty allowance and a margin for every historical session. After fresh complete-receipt verification and the settling interval, an immutable operator adjustment accounts for the latest voice receipt plus its own US$0.05 uncertainty margin. Current effective exposure is US$0.726937; another full US$0.25 reservation would bring it to US$0.976937. Both replicas report bounded trial admission available, subject to the private code, consent and remaining budget. This is not proof that US$1 was actually spent.
+
+Five official receipts and the native request count corroborate US$0.02693550 currently recorded for the same key, including US$0.004293 for the latest voice exchange. All five receipts were rechecked after the settling interval and were unchanged. This recorded total is not complete future coverage or a final invoice. The failed 0.3.2 voice trial had no indexed matching receipt after its settling interval; unindexed cost remains unknown, not zero. Recorded costs do not establish settled invoice finality. The same US$1 lifetime, Refresh Never key remains unchanged, without reset or top-up. See [providers](../providers/#recorded-cost-and-historical-holds).
+
+## Historical 0.3.0 qualification
+
+The 0.3.0 source was `0a36581552a99ef03bf6539586a6ac008953a3e7`, tag `main-0a36581-38170880026` and digest `sha256:e49de502dc3aa531524db87d7b91ef83bf09637e1dfda00317217aef1c421e93`. Exact-main CI and signed owner release passed. Local checks passed 264 unit tests and 91 browser tests with 8 existing native microphone skips; its fresh public suite also passed 91 with 8 skips, and all 42 WAV checks passed. Automated AI cases were mocked.
+
+Its raw voice trial connected and reported 188,800 PCM bytes forwarded, zero drained bytes and one committed turn, without any transcript, spoken output or phrase before timeout. A subsequent text-teacher selected A4/C5, played both notes and correctly advised raising a locally measured −49.9-cent flat A4, but errored before correction completion or the partner turn. That trial's overall runtime acceptance failed; its intermittent cause remains unresolved. Six closed reservation rows and one checkpoint were retained at that closure. The later 0.3.1 passing text-led trial supersedes that incomplete musical acceptance, without qualifying raw voice input or erasing historical failures.
+
+This music product has its own version history, separate from the former framework now named Varendo. Application and public docs have separate repository histories; documentation publication does not deploy an application image.
+
+## Historical 0.2.2 qualification
 
 The application and public docs retain separate repository histories, each beginning with one root commit named **Initialize**. Subsequent changes use reviewed branches. The application version endpoint reports its baked source revision; source and image verification are maintained in the application's status record.
 
-The signed 0.2.2 application is live at [aeliqo.com](https://aeliqo.com/). Its current identity is:
+The signed 0.2.2 application was verified before 0.3.0. Its historical identity is:
 
 - Source revision: `17c7e6d1f9a9810c80b579618ef8ea9284db895b`.
 - Image tag: `main-17c7e6d-38162521503`.
 - Image digest: `sha256:cf0ced485bacfb413fef2645f14505b3169bb35b914d4b627f096a603ccc6850`.
 
-Exact-source main CI passed with 170 unit tests and 67 browser tests, with 8 existing native microphone skips. The signed owner release, strict vulnerability checks, private-registry image and native rollout verification passed. The application has two ready replicas with zero restarts at verification; public health, readiness and version responses were successful. All 42 public WAV assets, totaling 146,231,764 bytes, matched their release hashes. The legacy framework's specification and two warm rollback endpoints remain preserved.
+Exact-source main CI passed with 170 unit tests and 67 browser tests, with 8 existing native microphone skips. The signed owner release, strict vulnerability checks, private-registry image and native rollout verification passed. At that verification, the application had two ready replicas with zero restarts; public health, readiness and version responses were successful. All 42 public WAV assets, totaling 146,231,764 bytes, matched their release hashes. The legacy framework's specification and two warm rollback endpoints remain preserved.
 
-The durable ledger is retained across both application replicas with all four holds closed and the original three rows unchanged. The one-time seed is absent. These checks establish deployed identity, ledger preservation and local product behavior, not a successful provider conversation or physical-device audio quality. GitHub Pages publication is separate and does not publish an application image.
+At the 0.2.2 closure, the durable ledger was retained across both application replicas with all four holds closed and the original three rows unchanged. The one-time seed was absent. These checks establish deployed identity, ledger preservation and local product behavior, not a successful provider conversation or physical-device audio quality. GitHub Pages publication is separate and does not publish an application image.
 
 ## 0.2.2 setup correction
 
@@ -54,4 +76,4 @@ The signed 0.1.0 release used source revision `81fd2021154a414b52a529710e0a20803
 
 The release uses browser-local Web Audio and browser-dependent capture/recording features. Read [requirements](../requirements/) for their practical limits. Automated browser coverage is not a real-device audio certification.
 
-See the [changelog](../changelog/) for the preserved release history and current 0.2.2 patch and [capabilities](../capabilities/) for the precise behavior.
+See the [changelog](../changelog/) for the preserved release history and current 0.3.3 release and [capabilities](../capabilities/) for the precise behavior.

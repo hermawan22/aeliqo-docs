@@ -34,13 +34,19 @@ Pause and resume after an interruption. If the state remains inconsistent, end t
 
 ## The partner does not pronounce the lyrics
 
-That is the current design: 0.2.2 uses an arranged synthetic vowel part. Lyrics are authored cues for the human performer and identify each role. This release does not include a speech-to-singing or unrestricted generative voice service.
+The arranged backing part in 0.3.3 uses an arranged synthetic vowel part. Lyrics are authored cues for the human performer and identify each role. This release does not include a speech-to-singing or unrestricted generative voice service.
 
 ## AI assistance is unavailable
 
-Live AI coaching is currently unavailable. The fourth trial created a session and received HTTP acceptance for microphone input, but no stream event, transcript or native audio reply was observed before a 15-second timeout. HTTP acceptance does not prove forwarding to the provider; the silent-reply cause and stream-first-byte behavior remain unresolved.
+One bounded 0.3.1 text-led trial completed a real exercise, a correction matching locally measured flat pitch and a responsive local instrument phrase. Bounded private-code trial admission is available, subject to consent and remaining budget; visible controls do not promise unrestricted ongoing access. One controlled synthetic-speech exchange on 0.3.3 was independently qualified; physical-device singing remains unqualified. Do not repeat provider calls as a troubleshooting step without separately authorized access.
 
-All four lifetime reservations are closed, retaining US$1.00 in application holds. These are not a provider invoice or proof that US$1 was spent. The same US$1 lifetime, Refresh Never key remains, and a dashboard displaying unused funds does not permit another attempt. A fifth admission is blocked. No reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial. Local music and pitch guidance remain available; do not troubleshoot this unavailable AI service as a microphone problem. See [providers](../providers/) for the closed-trial status.
+The earlier intermittent second-turn failure remains unresolved. A later successful trial does not establish its cause or guarantee that it cannot recur. Local music and pitch guidance remain available. Nine closed reservations and their accounting history are preserved. The earlier 0.3.2 voice trial received no reply despite valid input; a later 0.3.3 synthetic speech exchange completed. The intermittent cause remains unresolved; independent review qualified only this one controlled synthetic-speech exchange. An unindexed cost is unknown, not zero. Five official receipts currently record US$0.02693550, including US$0.004293 for the latest voice exchange. This freshly rechecked total is not settled invoice finality or proof that US$1 was spent. The same lifetime US$1 key remains unchanged, without reset or top-up. See [providers](../providers/).
+
+## An exercise or response is silent
+
+The text-led flow completed one controlled trial on 0.3.1; current access requires the private trial code, consent and sufficient remaining budget. Check device/tab volume and **Instrumental** volume: local exercise and response notes use the instrument bus, independently of the arranged **Partner** vocal level. A cancelled response after a song change, disconnect or hidden tab should stop rather than resume stale notes. Do not repeat provider requests to diagnose missing sound without available authorized access.
+
+**Try exercise** compares only the example's first note at the selected octave. Sing a steady vowel with headphones; uncertain or clipped sound stays neutral. Recent summary observations expire after 30 seconds, and changing the attempt or target clears the relevant practice scope. No observation means there is no measured practice evidence to send; it is not a zero performance score.
 
 ## A session stops after a call or device change
 

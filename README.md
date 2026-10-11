@@ -1,6 +1,6 @@
 # Aeliqo documentation
 
-Public documentation for **Aeliqo 0.1.0**, the independent music companion.
+Public documentation for **Aeliqo 0.3.3**, the independent music companion.
 
 Repository: [hermawan22/aeliqo-docs](https://github.com/hermawan22/aeliqo-docs). Published documentation: [hermawan22.github.io/aeliqo-docs](https://hermawan22.github.io/aeliqo-docs/).
 
@@ -34,4 +34,4 @@ The path prefix is `/aeliqo-docs/`. The application at `aeliqo.com` is deployed 
 
 ## Content contract
 
-Describe only shipped behavior, name limitations, and update the version, changelog, and capability matrix together. The 0.1.0 partner is an arranged synthetic vowel performance, not a live generative singer. Optional provider credentials belong on the application server. Preserve asset attribution and provenance in the private application repository.
+Describe only shipped behavior, name limitations, and update the version, changelog, and capability matrix together. The arranged vocal partner performs synthetic vowels. A controlled text-led trial qualified spoken teaching, correction grounded in local pitch measurements and AI-directed local instrument responses. One controlled synthetic-speech exchange on 0.3.3 was independently qualified; receipt accounting was applied after a fresh settling check. Physical human/device input remains unqualified, and bounded trial admission is available with the private code and consent, subject to remaining budget. Preserve this distinction from generated sung duets. Optional provider credentials belong on the application server. Preserve asset attribution and provenance in the private application repository.

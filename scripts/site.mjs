@@ -1,6 +1,6 @@
 export const site = {
   name: "Aeliqo",
-  version: "0.2.2",
+  version: "0.3.3",
   base: "/aeliqo-docs/",
   origin: "https://hermawan22.github.io",
 };
@@ -35,7 +35,7 @@ export const pages = [
     file: "capabilities",
     title: "Capabilities",
     group: "The experience",
-    eyebrow: "THE 0.2.2 EXPERIENCE",
+    eyebrow: "THE 0.3.3 EXPERIENCE",
     description: "A precise guide to shipped behavior and current limits.",
   },
   {
@@ -60,7 +60,8 @@ export const pages = [
     title: "AI providers",
     group: "Behind the stage",
     eyebrow: "OPTIONAL BY DESIGN",
-    description: "Unavailable experimental coaching and closed-trial status.",
+    description:
+      "Qualified bounded musical flow, trial access, and provider limits.",
   },
   {
     slug: "architecture",
@@ -75,7 +76,7 @@ export const pages = [
     file: "version",
     title: "Version information",
     group: "Behind the stage",
-    eyebrow: "RELEASE 0.2.2",
+    eyebrow: "RELEASE 0.3.3",
     description: "Release identity, compatibility, and publication targets.",
   },
   {

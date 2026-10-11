@@ -11,7 +11,10 @@ for (const width of [360, 768, 1440]) {
       "Your music. Your stage. Your practice.",
     );
     await expect(
-      page.getByText("live AI coaching is unavailable", { exact: true }),
+      page.getByText(
+        "A spoken teacher and AI-directed instrument partner completed a controlled production trial.",
+        { exact: true },
+      ),
     ).toBeVisible();
     expect(
       await page.evaluate(
@@ -74,24 +77,34 @@ test("keyboard skip link and reduced motion remain usable", async ({
   expect(result.violations).toEqual([]);
 });
 
-test("getting started clearly marks the failed AI trial as unavailable", async ({
+test("getting started explains qualified scope and bounded private trial access", async ({
   page,
 }) => {
   await page.goto("/aeliqo-docs/getting-started/");
   await expect(
     page.getByRole("heading", {
-      name: "Live AI coaching is unavailable",
+      name: "Use the bounded AI trial",
       exact: true,
     }),
   ).toBeVisible();
   await expect(
     page.getByText(
-      /Do not expect Connect live coach, Talk to coach or Coach my last note to provide a working AI session/,
+      /This qualifies the bounded text-led musical flow, not raw microphone conversation/,
     ),
   ).toBeVisible();
   await expect(
     page.getByText(
-      /The US\$1\.00 retained application holds are not a provider invoice/,
+      /The current admission status is available for the bounded private trial/,
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      /Five freshly checked official receipts record US\$0\.02693550; this is recorded usage/,
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      /Application holds are not a provider invoice or proof that US\$1 was spent/,
     ),
   ).toBeVisible();
 });
