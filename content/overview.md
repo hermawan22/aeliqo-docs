@@ -6,13 +6,13 @@ Aeliqo is a music companion built around performing, not navigating a dashboard.
 
 ## A playable music companion
 
-Version **0.2.1** brings six original genre arrangements, five switchable synthesized instrumental stems per song, and three ways to spend time with music:
+Version **0.2.2** brings six original genre arrangements, five switchable synthesized instrumental stems per song, and three ways to spend time with music:
 
 - **Sing Together** — perform with an original instrumental, synchronized lyrics, and an arranged synthetic vowel duet part.
 - **Jam Together** — play or sing over deterministic accompaniment. The pattern is scheduled ahead; it does not improvise in response to you.
 - **Get Better** — compare stable microphone pitch with the authored solo melody, choose your octave and hear a reference tone. Uncertain measurements stay neutral; this is not a professional vocal assessment.
 
-The partner's sound is synthesized and arranged. It does **not** sing arbitrary lyrics, clone a voice, or generate a live vocal response. Experimental Gemini spoken-coach code is included, but **live AI coaching is unavailable**. The production trial failed before connecting, no Gemini response was verified, and its three-session allowance is exhausted. Immediate pitch guidance comes from local measurements; it does not depend on a model. Read [provider status and limits](providers/).
+The partner's sound is synthesized and arranged. It does **not** sing arbitrary lyrics, clone a voice, or generate a live vocal response. Experimental Gemini spoken-coach code is included, but **live AI coaching is unavailable**. The fourth production trial created a session but produced no verified Gemini reply or audible output before timeout. All four trial admissions are exhausted; HTTP-accepted microphone bytes do not establish a working AI conversation. Immediate pitch guidance comes from local measurements; it does not depend on a model. Read [provider status and limits](providers/).
 
 ## Make your first session
 

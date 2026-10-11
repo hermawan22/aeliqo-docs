@@ -91,7 +91,7 @@ test("getting started clearly marks the failed AI trial as unavailable", async (
   ).toBeVisible();
   await expect(
     page.getByText(
-      /The US\$0\.75 retained application holds are not a provider invoice/,
+      /The US\$1\.00 retained application holds are not a provider invoice/,
     ),
   ).toBeVisible();
 });

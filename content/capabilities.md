@@ -1,8 +1,8 @@
 # Capabilities and release status
 
-**0.2.1 is live. Experimental live AI coaching is unavailable: production acceptance failed and the three-session trial is exhausted. No successful Gemini response or audible output has been verified.** Music playback, local target-note feedback and recording work independently of provider access.
+**0.2.2 is live. Experimental live AI coaching is unavailable: the fourth trial failed to qualify a reply and all four admissions are exhausted. No successful Gemini response or audible output has been verified.** Music playback, local target-note feedback and recording work independently of provider access.
 
-| Capability                  | 0.2.1 behavior                                                                                    |
+| Capability                  | 0.2.2 behavior                                                                                    |
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
 | Song playback               | Original, procedurally synthesized instrumentals, scheduled by Web Audio                          |
 | Duet partner                | Arranged synthetic vowel stems with partner timbre choices                                        |
@@ -33,7 +33,7 @@ Pitch feedback can fluctuate with noise, overlapping sound, vibrato, and unvoice
 
 Recordings are session-local and are not automatically saved. Export a take before leaving if you want to keep it. Browser recording formats differ, so a downloaded take may need a compatible player.
 
-## Expanded in 0.2.1
+## Current music and local coaching
 
 - **Six original genres:** Synth-pop (Violet Hour), Lo-fi (Paper Moons), Acoustic (Sunlit Strings), Funk (Pocket Sparks), Latin (Tidal Steps), and Waltz (Velvet Waltz). All instruments are synthesized; genre names do not imply recorded acoustic instruments or a commercial catalog.
 - **Five separate instrumental stems per song:** synth keys, synth guitar, synth bass, synth drums and synth pad. Checkboxes change the actual audio mix, alongside instrumental and partner volume controls. Genre filters and search help choose a song before playback.
@@ -41,6 +41,6 @@ Recordings are session-local and are not automatically saved. Export a take befo
 - **Explicit octave choice:** original melody, one octave lower or one octave higher. An octave mistake is not automatically folded into a correct note. A reference-tone button helps hear the target while playback is paused.
 - **Experimental spoken-coach implementation, unavailable:** designed for Gemini Live through a Vercel AI Gateway server proxy, with explicit consent and a private trial code. The code pauses music for conversation and grounds text questions in the last stable solo-note measurement. No real model reply or audible coaching passed acceptance; these implemented controls are not a verified working AI feature.
 
-The catalog and local pitch guidance are deployed. The final production coach attempt failed with HTTP 503 before Connected. All three lifetime reservations are closed, retaining US$0.75 in application holds; those holds are not a provider invoice. No retry, reset or additional paid use is authorized under this closed trial. The synthetic partner still performs arranged **ooh/ah vowels**. Displayed words are phrase prompts; word pronunciation and syllable-to-note alignment are not implemented. Live generative duet singing remains unavailable.
+The catalog and local pitch guidance are deployed. The fourth trial created a session and received HTTP acceptance for microphone bytes, but no stream event, transcript or native output was observed before a 15-second timeout. HTTP acceptance does not establish upstream forwarding. All four lifetime holds are closed, totaling US$1.00 in application reservations, not a provider invoice. A fifth admission is blocked; no reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial. The synthetic partner still performs arranged **ooh/ah vowels**. Displayed words are phrase prompts; word pronunciation and syllable-to-note alignment are not implemented. Live generative duet singing remains unavailable.
 
 See [providers](../providers/) for connection limits and [privacy](../privacy/) for what leaves the device.
