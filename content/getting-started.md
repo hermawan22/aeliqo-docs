@@ -6,7 +6,7 @@ A song, a partner, and a little space for your voice.
 
 Use headphones to keep the backing track out of your microphone. Start at a comfortable volume. Open Aeliqo in a browser tab on HTTPS, or use localhost when developing. Check [browser requirements](../requirements/) before troubleshooting a device.
 
-The application is prepared for **aeliqo.com**. Documentation being published does not mean the commercial application is deployed there. Use the application address supplied with your installation until production cutover is verified.
+Open [Aeliqo](https://aeliqo.com/) to start. The music application is live on HTTPS; `www.aeliqo.com` redirects to the same application.
 
 ## 2. Choose your stage
 
