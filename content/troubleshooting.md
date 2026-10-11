@@ -34,11 +34,13 @@ Pause and resume after an interruption. If the state remains inconsistent, end t
 
 ## The partner does not pronounce the lyrics
 
-That is the current design: 0.2.1 uses an arranged synthetic vowel part. Lyrics are authored cues for the human performer and identify each role. This release does not include a speech-to-singing or unrestricted generative voice service.
+That is the current design: 0.2.2 uses an arranged synthetic vowel part. Lyrics are authored cues for the human performer and identify each role. This release does not include a speech-to-singing or unrestricted generative voice service.
 
 ## AI assistance is unavailable
 
-Live AI coaching is currently unavailable. The final production session-creation attempt returned HTTP 503 before Connected, with no verified Gemini reply, transcript or audible output. All three lifetime trial reservations are now closed. Their US$0.75 application holds are not a provider invoice, and a dashboard displaying unused funds does not permit another attempt. No reset, refund, top-up, replacement key or further paid call is authorized. Local music and pitch guidance remain available; do not troubleshoot this unavailable AI service as a microphone problem. See [providers](../providers/) for the closed-trial status.
+Live AI coaching is currently unavailable. The fourth trial created a session and received HTTP acceptance for microphone input, but no stream event, transcript or native audio reply was observed before a 15-second timeout. HTTP acceptance does not prove forwarding to the provider; the silent-reply cause and stream-first-byte behavior remain unresolved.
+
+All four lifetime reservations are closed, retaining US$1.00 in application holds. These are not a provider invoice or proof that US$1 was spent. The same US$1 lifetime, Refresh Never key remains, and a dashboard displaying unused funds does not permit another attempt. A fifth admission is blocked. No reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial. Local music and pitch guidance remain available; do not troubleshoot this unavailable AI service as a microphone problem. See [providers](../providers/) for the closed-trial status.
 
 ## A session stops after a call or device change
 

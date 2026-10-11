@@ -1,6 +1,6 @@
 {
   "name": "aeliqo-docs",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "description": "Public static documentation for Aeliqo, your music companion",
   "type": "module",

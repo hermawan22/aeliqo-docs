@@ -2,11 +2,24 @@
 
 Changes to the independent Aeliqo music product and its public docs.
 
+## 0.2.2 · Provider setup correction; live AI unavailable
+
+**0.2.2 is live at [aeliqo.com](https://aeliqo.com/).** Source `17c7e6d1f9a9810c80b579618ef8ea9284db895b`, signed tag `main-17c7e6d-38162521503` and digest `sha256:cf0ced485bacfb413fef2645f14505b3169bb35b914d4b627f096a603ccc6850` passed exact-source CI, signed release and native/public rollout verification. Local music, six genre arrangements, five switchable synthesized instrument stems and measured target-note feedback remain available.
+
+- Removed unsupported `providerOptions`. Setup-only probes isolated its rejection with `1008` / `transformRejected`; removing only that option reached `session-created`. This was setup acceptance, not a generated model reply.
+- The explicitly authorized fourth trial created a session with HTTP 201. Input POSTs returned HTTP 200 for 80,000 bytes of microphone PCM, but no stream event, transcript or native output appeared before the 15-second microphone-reply timeout. HTTP acceptance is not proven upstream forwarding: the server can drain late bytes. The browser closed without a second typed generation or retry. No grounded-pitch conversation was qualified.
+- The silent-reply cause and stream-first-byte behavior remain unresolved. Offline nonzero fake-microphone and parser tests are not provider proof.
+- All four US$0.25 lifetime reservations are closed, retaining US$1.00 in application holds. The original three rows remain unchanged. This is not a provider invoice or proof that US$1 was spent. A fifth admission is blocked; no reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial.
+- The same dedicated US$1 lifetime, Refresh Never key remains. A later dashboard display of US$0.00 used, US$1.00 remaining and zero requests/tokens may be delayed or rounded; it does not prove settled zero cost or permit another attempt.
+- The 60-second session, three-reply, 20-second aggregate decoded audio-output and local text/input bounds remain. No verified upstream 128-token cap or hard provider-invoice ceiling is claimed.
+
+**Experimental live AI coaching is unavailable.** The retained ledger, signed image, working local music and warm legacy rollback remain preserved.
+
 ## 0.2.1 · Voice transport patch
 
-**0.2.1 is live at [aeliqo.com](https://aeliqo.com/).** It corrects premature voice-input failure under ordinary network delay while preserving ordered, bounded uploads. Independent review, same-source CI, signed-image release checks, strict vulnerability scanning and public deployment verification passed. The previous framework remains available for rollback.
+The 0.2.1 release corrected premature voice-input failure under ordinary network delay while preserving ordered, bounded uploads. Independent review, same-source CI, signed-image release checks, strict vulnerability scanning and public deployment verification passed. The previous framework remains available for rollback.
 
-The transport patch was implemented without additional paid calls. The subsequent final production acceptance attempt returned **HTTP 503 before Connected**, with no stream events, transcripts, input or spoken output. No successful Gemini exchange or audible coaching was qualified. All three lifetime reservations are closed, retaining US$0.75 in application holds; these are not a provider invoice or a statement that US$1 was spent. **Experimental live AI coaching is unavailable.** There is no reset, refund, top-up, replacement key or further paid call under the closed trial.
+The transport patch was implemented without additional paid calls. The subsequent third production acceptance attempt returned **HTTP 503 before Connected**, with no stream events, transcripts, input or spoken output. No successful Gemini exchange or audible coaching was qualified. At that release, all three lifetime reservations were closed, retaining US$0.75 in application holds; these are not a provider invoice or a statement that US$1 was spent. **Experimental live AI coaching is unavailable.** The initial trial closed without reset, refund, top-up or replacement key. The owner later explicitly authorized a fourth admission within the same US$1 total limit, as recorded under 0.2.2.
 
 A later gateway dashboard read displayed US$0.00 used, US$1.00 remaining and zero requests/tokens with recent key activity. The display may be delayed or rounded; it does not prove settled zero cost or authorize a retry. The dedicated US$1 lifetime, Refresh Never budget remains unchanged.
 

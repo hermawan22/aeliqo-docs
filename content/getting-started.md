@@ -1,6 +1,6 @@
 # Your first session
 
-A song, a partner, and a little space for your voice. **These steps describe live 0.2.1. Live AI coaching is unavailable: the production trial failed before connecting, no Gemini response was verified, and its three-session allowance is exhausted. Music, recordings and local target-note feedback remain usable.**
+A song, a partner, and a little space for your voice. **These steps describe live 0.2.2. Live AI coaching is unavailable: the fourth trial produced no verified Gemini response or audible output, and all four lifetime admissions are exhausted. Music, recordings and local target-note feedback remain usable.**
 
 ## 1. Prepare your sound
 
@@ -48,8 +48,10 @@ The partner sings arranged vowels. Words on screen are phrase prompts, without v
 
 ## Live AI coaching is unavailable
 
-The experimental Gemini coach did not pass production acceptance. The final session-creation request returned **HTTP 503 before Connected**, with no transcript or audible response. The private trial is closed after all three lifetime reservations, including failures. The US$0.75 retained application holds are not a provider invoice. A dashboard showing unused funds does not reopen this allowance.
+The experimental Gemini coach did not pass production acceptance. The fourth trial created a session and the application's HTTP endpoint accepted microphone bytes, but no stream event, transcript or native audio reply was observed before a 15-second timeout. HTTP acceptance does not prove the audio reached the provider. The silent-reply cause remains unresolved.
 
-Do not expect **Connect live coach**, **Talk to coach** or **Coach my last note** to provide a working AI session in this release. No retry, reset, refund, top-up, replacement key or further paid call is authorized under the closed trial.
+The private trial is closed after all four lifetime reservations, including failures. **The US$1.00 retained application holds are not a provider invoice or proof that US$1 was spent.** A dashboard showing unused funds does not reopen this allowance.
+
+Do not expect **Connect live coach**, **Talk to coach** or **Coach my last note** to provide a working AI session in this release. A fifth admission is blocked. No retry, reset, refund, top-up, replacement key or further provider call is authorized under the exhausted trial.
 
 Use **Get Better** for measured local target-note guidance: sing a steady vowel during your solo phrase, choose your octave and use **Hear target** while paused. This local analysis is not an AI conversation. The partner remains an arranged synthetic vowel part, not a live AI singing duet. See [provider status](../providers/) for the failed trial and [privacy](../privacy/) for the separate, experimental transmission boundary.

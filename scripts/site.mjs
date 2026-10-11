@@ -1,6 +1,6 @@
 export const site = {
   name: "Aeliqo",
-  version: "0.2.1",
+  version: "0.2.2",
   base: "/aeliqo-docs/",
   origin: "https://hermawan22.github.io",
 };
@@ -35,7 +35,7 @@ export const pages = [
     file: "capabilities",
     title: "Capabilities",
     group: "The experience",
-    eyebrow: "THE 0.2.1 EXPERIENCE",
+    eyebrow: "THE 0.2.2 EXPERIENCE",
     description: "A precise guide to shipped behavior and current limits.",
   },
   {
@@ -75,7 +75,7 @@ export const pages = [
     file: "version",
     title: "Version information",
     group: "Behind the stage",
-    eyebrow: "RELEASE 0.2.1",
+    eyebrow: "RELEASE 0.2.2",
     description: "Release identity, compatibility, and publication targets.",
   },
   {
